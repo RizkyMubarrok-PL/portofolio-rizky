@@ -1,0 +1,12 @@
+body {
+    font-family: "JetBrains Mono", monospace;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #001220;
+}
+
+.svg-container {
+    position: fixed;
+    z-index: -1;
+}
