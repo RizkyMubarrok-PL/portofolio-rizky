@@ -1,5 +1,5 @@
-import { gsap } from "node_modules/gsap/index.js";
-import { TextPlugin } from "node_modules/gsap/TextPlugin.js";
+import { gsap } from "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js";
+import { TextPlugin } from "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/TextPlugin.min.js";
 
 function wavedAnimation(selector, dValues) {
     gsap.timeline({ repeat: -1, yoyo: true, repeatDelay: 0 }).to(selector, {
